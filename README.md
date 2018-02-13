@@ -1,7 +1,7 @@
 # MitoSort 
 MitoSort is a comprehensive python package designed to rapidly perform mitochondrial (mtDNA) analysis of Next Generation Sequence (NGS) data. 
 
-![mito outline](./src/images/mitoflow.png)
+![mito outline](./images/mito_outline.png)
 
 ## Dependencies
  MitoSort supports Python 2.7.
