@@ -17,7 +17,9 @@ python setup.py
 ```
 This will check for any necessary python dependencies and install them.  You will need to have samtools, bwa, and qsub installed prior to this, however.
 ## Config.txt	
-Once setup.py has successfully run, you will likely need to edit some additional information into your config.txt.  To run MitoSort on your cluster, you will need to fill out the cluster parameters within this file.
+Once setup.py has successfully run, you will need to edit some additional information into your config.txt to run MitoSort on your cluster.  You will need to fill out the cluster parameters within this file, including QUEUE, MEMORY, and EMAIL.  
+
+If any of the non-python dependencies are not installed, or if viennaRNA is not installed, you will need to manually write in the path to each dependency missing.
 
 ## Usage
 Inputs can be in either FASTQ or BAM format from Whole Genome Sequencing (WGS), targeted mtDNA sequencing, or even some exome sequencing protocols that include mtDNA coverage. MitoSort can run on a single machine or optionally submit all samples in parallel on a Linux cluster.
