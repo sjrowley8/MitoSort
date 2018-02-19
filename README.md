@@ -7,6 +7,8 @@ MitoSort is a comprehensive python package designed to rapidly perform mitochond
  MitoSort supports Python 2.7.
 Installation requires [samtools](http://samtools.sourceforge.net/), [bwa](http://bio-bwa.sourceforge.net/), [qsub]() and python packages [numpy](http://www.numpy.org/), [pandas](http://pandas.pydata.org/), [matplotlib](https://matplotlib.org/),  [pysam](http://pysam.readthedocs.io/en/latest/api.html), and [viennaRNA](https://www.tbi.univie.ac.at/RNA/).
 ## Installation
+
+Prior to installation, you will need to have samtools, bwa, qsub, and viennaRNA installed.
 To install:
 ```bash
 git clone https://github.com/sjrowley8/MitoSort
@@ -16,7 +18,7 @@ Once installed:
 pip install -r requirements.txt
 python build_config.py
 ```
-This will check for any necessary python dependencies, install them, and build your configuration file.  You will need to have samtools, bwa, and qsub installed prior to this, however.
+This will check for any necessary python dependencies, install them, and build your configuration file.  
 ## Config.txt	
 Once setup.py has successfully run, you will need to edit some additional information into your config.txt to run MitoSort on your cluster.  You will need to fill out the cluster parameters within this file, including QUEUE, MEMORY, and EMAIL.  
 
