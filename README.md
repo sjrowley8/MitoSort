@@ -8,7 +8,7 @@ MitoSort is a comprehensive python package designed to rapidly perform mitochond
 Installation requires [samtools](http://samtools.sourceforge.net/), [bwa](http://bio-bwa.sourceforge.net/), [qsub]() and python packages [numpy](http://www.numpy.org/), [pandas](http://pandas.pydata.org/), [matplotlib](https://matplotlib.org/),  [pysam](http://pysam.readthedocs.io/en/latest/api.html), and [viennaRNA](https://www.tbi.univie.ac.at/RNA/).
 ## Installation
 
-Prior to installation, you will need to have samtools, bwa, qsub, and viennaRNA installed.
+Prior to installation, you will need to have samtools, bwa, qsub, and viennaRNA installed.\n
 To install:
 ```bash
 git clone https://github.com/sjrowley8/MitoSort
