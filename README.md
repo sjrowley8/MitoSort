@@ -13,9 +13,10 @@ git clone https://github.com/sjrowley8/MitoSort
 ```
 Once installed:
 ```bash	
-python setup.py
+pip install -r requirements.txt
+python build_config.py
 ```
-This will check for any necessary python dependencies and install them.  You will need to have samtools, bwa, and qsub installed prior to this, however.
+This will check for any necessary python dependencies, install them, and build your configuration file.  You will need to have samtools, bwa, and qsub installed prior to this, however.
 ## Config.txt	
 Once setup.py has successfully run, you will need to edit some additional information into your config.txt to run MitoSort on your cluster.  You will need to fill out the cluster parameters within this file, including QUEUE, MEMORY, and EMAIL.  
 
