@@ -50,4 +50,3 @@ f.write('[CLUSTER]\n# CLUSTER PARAMETERS\n')
 f.write('QSUB = ' + qsub)
 f.write('QUEUE = 1-day\nMEMORY= h_vmem=8G\nEMAIL = ENTER EMAIL HERE\n')
 
-print(qsub)
